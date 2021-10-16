@@ -65,60 +65,8 @@
     </div>
 
     <div id="movies-list">   
-        <div class="row">
 
-        <div class="containerMic" role="button" style="width: 100%;" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" id="Mic" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Realiza busquedas por voz">
-            <img src="assets/search_black_36dp.svg" >
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade modalMic" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog position-relative">
-            <div class="modal-content " style="margin-left: 0% !important;">
-                <div class="modal-header justify-content-center align-items-center" style="color: white;">
-                    <h3>Add new Movie</h3>
-                </div>
-                <div class="modal-body" style="margin-left: 0% !important;">
-                    
-                    <div class="row">
-                        <div class="col">
-                            <div class="input-group ">
-                                <button class="btn btn-outline-secondary inputbutton" type="button" id="button-addon1">Ratting</button>
-                                <input type="text" class="form-control inputmodal" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="input-group ">
-                                <button class="btn btn-outline-secondary inputbutton" type="button" id="button-addon1">Name</button>
-                                <input type="text" class="form-control inputmodal" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="input-group  ">
-                                <button class="btn btn-outline-secondary inputbutton" type="button" id="button-addon1">Image</button>
-                                <input type="text" class="form-control inputmodal" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <button type="button" id="btnCancel" class="btn btn-secundary btnModal">Cancel</button>
-                        </div>
-                        <div class="col">
-                            <button type="button" id="btnAdd" class="btn btn-secundary btnModal">Add</button>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            </div>
-        </div>
-        <div id="movies-list-movie-container">
+        <div id="movies-list-movie-container" data-bs-toggle="modal" data-bs-target="#exampleModal" id="Mic" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Realiza busquedas por voz"">
             <div class="movies-list-movie-container-card-1">
                 <img src="assets/imagen.jpg" class="card-img-top" alt="icono">
                 <h3>Add New</h3>
@@ -150,7 +98,53 @@
     </div>
 
     <div id="movies-form">
-
+                <!-- Modal -->
+                <div class="modal fade modalMic" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog position-relative">
+                    <div class="modal-content " style="margin-left: 0% !important;">
+                        <div class="modal-header justify-content-center align-items-center" style="color: white;">
+                            <h3>Add new Movie</h3>
+                        </div>
+                        <div class="modal-body" style="margin-left: 0% !important;">
+                            
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group ">
+                                        <button class="btn btn-outline-secondary inputbutton" type="button" id="button-addon1">Ratting</button>
+                                        <input type="text" class="form-control inputmodal" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group ">
+                                        <button class="btn btn-outline-secondary inputbutton" type="button" id="button-addon1">Name</button>
+                                        <input type="text" class="form-control inputmodal" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="input-group  ">
+                                        <button class="btn btn-outline-secondary inputbutton" type="button" id="button-addon1">Image</button>
+                                        <input type="text" class="form-control inputmodal" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" id="btnCancel" class="btn btn-secundary btnModal">Cancel</button>
+                                </div>
+                                <div class="col">
+                                    <button type="button" id="btnAdd" class="btn btn-secundary btnModal">Add</button>
+                                </div>
+                            </div>
+        
+                        </div>
+        
+                    </div>
+                    </div>
+                </div>
     </div>
 </body>
 
