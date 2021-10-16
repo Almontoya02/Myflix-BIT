@@ -1,0 +1,48 @@
+#movies-list-movie-container{
+ background-color: rgb(58, 58, 58);
+   display: inline-block;
+   border-radius: 20px;
+  
+
+}
+.movies-list-movie-container-card{
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+.movies-list-movie-container-star{
+    right: 10px;
+    width: 30px;
+    top: 5px;
+    flex-direction: column;
+    position: absolute;
+}
+.movies-list-movie-container-card > img{
+    border-radius: 2%;
+    height: 400px;
+    width: 300px;
+}
+.movies-list-movie-container-card-1{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+    border-radius: 10px;
+    
+}
+.movies-list-movie-container-card1 > img{
+    border-radius: 2%;
+} 
+
+
+ 
+
+
+
